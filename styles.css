@@ -15,7 +15,7 @@ body {
 }
 
 #main {
-  background-color: rgb(14, 82, 141);
+  background-color: rgb(200, 222, 241);
   color: white;
   overflow: hidden;
 }
@@ -92,22 +92,24 @@ nav .nav-links {
 /*---------------- Products ---------------*/
 
 #products {
-  padding: 120px 50px;
+  padding: 120px 80px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .product {
-  width: 280px;
+  padding: 60px 40px;
+
+  width: 320px;
   /* height: 400px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-
-  /* background-color: red; */
+border-radius: 10%;
+  background-color: rgb(82, 148, 234);
 }
 
 .product-image {
@@ -218,7 +220,7 @@ nav .nav-links {
   font-size: 15px;
   font-weight: 500;
   color: white;
-  background-color: rgb(14, 82, 141);
+  background-color: rgb(235, 113, 52);
 }
 
 /* ------------Cart------------- */
